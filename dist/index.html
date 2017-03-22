@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="lib/angularjs-slider/dist/rzslider.min.css" />
+  <title>Food Trucks</title>
+</head>
+
+<body ng-app="app.module">
+  <div class="container">
+    <div>
+      <h1>Food Trucks</h1>
+      <hr>
+    </div>
+    <div>
+      <p>
+        The goal of this demo project is to create a service that tells the user what types of food trucks might be found near a
+        specific location on a map, using the data from <a href="https://data.sfgov.org/Permitting/Mobile-Food-Facility-Permit/rqzj-sfat">DataSF: Food Trucks</a>.
+      </p>
+    </div>
+    <ui-view></ui-view>
+  </div>
+  <script src="lib/angular/angular.min.js"></script>
+  <script src="lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="lib/angularjs-slider/dist/rzslider.min.js"></script>
+  <!-- Only for demo app (Move api key to properties file) -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuoZ9ZAiccpe9HRGqvQCH0fqOHQvN2wzc"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+{
+  "name": "food-trucks-client",
+  "version": "1.0.0",
+  "description": "Food Trucks demo application",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm run build && concurrently --kill-others \"npm run watch\" \"npm run server\" ",
+    "build": "gulp",
+    "build:prod": "gulp build:prod",
+    "watch": "gulp watch",
+    "server": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrei0000/food-trucks-client.git"
+  },
+  "keywords": [
+    "food",
+    "trucks"
+  ],
+  "author": "andrei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrei0000/food-trucks-client/issues"
+  },
+  "homepage": "https://github.com/andrei0000/food-trucks-client#readme",
+  "dependencies": {
+    "angular": "^1.6.3",
+    "angular-ui-router": "^0.4.2",
+    "angularjs-slider": "^6.1.0",
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-ngtemplate": "^0.2.5",
+    "gulp-uglify": "^2.1.2",
+    "lite-server": "^2.3.0",
+    "merge2": "^1.0.3"
+  }
+}
