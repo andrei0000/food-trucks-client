@@ -28,19 +28,19 @@
     "angular": "^1.6.3",
     "angular-ui-router": "^0.4.2",
     "angularjs-slider": "^6.1.0",
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.2",
+    "gzippo": "^0.2.0"
   },
   "devDependencies": {
     "concurrently": "^3.4.0",
     "event-stream": "^3.3.4",
-    "express": "^4.15.2",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-htmlmin": "^3.0.0",
     "gulp-if": "^2.0.2",
     "gulp-ngtemplate": "^0.2.5",
     "gulp-uglify": "^2.1.2",
-    "gzippo": "^0.2.0",
     "lite-server": "^2.3.0",
     "merge2": "^1.0.3"
   }
